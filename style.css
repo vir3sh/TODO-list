@@ -104,3 +104,16 @@ ul li.checked::before{
 /* .todo-app .list  {
     display: none;
 } */
+
+ul li span{
+    position: absolute;
+    right: 7px;
+    top: 15px;
+
+    line-height: 40px;
+    text-align: center;
+    font-size: 22px;
+    transform: translateY(-50%); /* Adjust for vertical centering */
+    line-height: 1; /* Reset line-height */
+    
+}
